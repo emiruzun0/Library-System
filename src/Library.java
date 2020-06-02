@@ -16,8 +16,9 @@ public class Library {
 	 */
 	Scanner scan = new Scanner(System.in);
 
+	//Create map in map. The inner map stores the outer map's values
 	Map<String, Map<String,Set<String>>> outerMap = new HashMap<String, Map<String,Set<String>>>();
-
+	
 
 	//Outer Map : 	the author name is used as a key, the value is another map whose keys are book names
 
